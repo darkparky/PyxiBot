@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import requests
 import shutil
 
-bot = telegram.Bot("Your_Bot_s_Token")
+bot = telegram.Bot("1663693380:AAGtTYi2CDq43JzBhWrijwDyLDQo-1kfXpg")
 
 try:
     LAST_UPDATE_ID = bot.getUpdates()[-1].update_id
